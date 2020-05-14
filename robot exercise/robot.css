@@ -32,10 +32,28 @@ img {
 	z-index: 5;
   }
 
+#hair2 {position: fixed;
+  left: 60px;
+  	border: 3px solid #73AD21;
+   	width: 300px;
+	top: 25px;
+	z-index: 6;
+  }
+
   #hat {position: fixed;
   left: 70px;
   	border: 3px solid #73AD21;
    	width: 300px;
 	top: -105px;
-	z-index: 6;
+	z-index: 7;
   }
+
+  #nose2 {position: relative;
+  	right: 650px;
+  	border: 3px solid #73AD21;
+   	width: 100px;
+	bottom: 150px;
+	z-index: 8;
+  }
+
+  
