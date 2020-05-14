@@ -1,9 +1,11 @@
 img {
   width: 50px;
+  border: 3px solid black;
 }
 #face {
   width: 400px;
-	z-index: -5;}
+  border: 3px solid blue;
+	z-index: 1;}
 
 #ears1 {
 	position: fixed;
@@ -11,17 +13,29 @@ img {
    	width: 400px;
    	left: 0px;
    	top: 50px;
+   	z-index: 2;
 	}
 
 #eyes1 {position: relative;
   	right: 310px;
   	border: 3px solid #73AD21;
    	width: 200px;
-	bottom: 240px;}
-  }
-#mouth2 {position: relative;
-  	right: 310px;
-  	border: 3px solid #73AD21;
-   	width: 800px;
 	bottom: 240px;
+	z-index: 4;
+  }
+
+#mouth1 {position: absolute;
+  left: 160px;
+  	border: 3px solid #73AD21;
+   	width: 100px;
+	top: 300px;
+	z-index: 5;
+  }
+
+  #hat {position: fixed;
+  left: 70px;
+  	border: 3px solid #73AD21;
+   	width: 300px;
+	top: -105px;
+	z-index: 6;
   }
