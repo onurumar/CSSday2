@@ -3,14 +3,39 @@
 <head>
 	<title></title>
 	<style>
-* {
-  box-sizing: border-box;
+
+.logo {
+	text-align: center;
+	font-size: 30px;
+	height: 40px;
+   background: #eee;
+   clear: both;
+}
+.navigation {
+	display: inline;
+	}
+
+#menu {
+    border:1px solid #ccc;
+    border-width:1px 0;
+    text-align:center;
+  	height: 50px;
+   background: #eee;
+   clear: both;
+  }
+
+.feature {
+	text-align: center;
+	font-size: 15px;
+		height: 50px;
+   background: #eee;
+   clear: both;
 }
 
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33.33%;
+  width: 30%;
   padding-left: 10px;
   padding-right: 10px;
   border: 0px;
@@ -36,9 +61,37 @@ td:first-child {
 td:last-child {
   padding-right: 0;
 }
+
+footer {
+   height: 40px;
+   background: #ddd;
+   clear: both;
+   text-align: center;
+}
 </style>
 </head>
 <body>
+
+<header>
+		<p class="logo">Logo</p>
+	</header>
+
+	<div id="menu">
+	<ul>
+  <li class="navigation"><a href="">Home</a></li>
+  <li class="navigation"><a href="">Products</a></li>
+  <li class="navigation"><a href="">Services</a></li>
+  <li class="navigation"><a href="">About</a></li>
+   <li class="navigation"><a href="">Contact</a></li>
+	</ul>
+	</div>
+
+
+	<div></div>
+		<p class="feature">Feature</p>
+	</div>
+
+
 <div class="row">
   <div class="column" style="background-color:#eee;">
     <td><h2>Column 1</h2></td>
