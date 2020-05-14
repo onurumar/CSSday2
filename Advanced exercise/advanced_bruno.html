@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 0px;
+  height: 150px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+td {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+td:first-child {
+  padding-left: 0;
+}
+
+td:last-child {
+  padding-right: 0;
+}
+</style>
+</head>
+<body>
+<div class="row">
+  <div class="column" style="background-color:#eee;">
+    <td><h2>Column 1</h2></td>
+   </div>
+  <div class="column" style="background-color:#eee;">
+    <td><h2>Column 2</h2></td>
+  </div>
+  <div class="column" style="background-color:#eee;">
+    <td><h2>Column 3</h2></td>
+      </div>
+</div>
+<footer>
+	copyright-symbol Copyright
+
+</footer>
+</body>
+</html>
+
